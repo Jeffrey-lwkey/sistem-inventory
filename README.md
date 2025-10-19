@@ -40,7 +40,6 @@ Perintah ini akan otomatis membuat:
     php artisan serve
     npm run dev
 
-
 **🧰 Stack & Library yang Digunakan**
 | Kategori              | Teknologi                        |
 | --------------------- | -------------------------------- |
