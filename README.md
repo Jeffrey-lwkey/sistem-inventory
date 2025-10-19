@@ -17,13 +17,13 @@ composer install
 npm install
 
 3. **Sesuaikan nama DB dengan kebutuhan**
-/.env:
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=sistem_inventory
-DB_USERNAME=root
-DB_PASSWORD=
+- /.env:
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=sistem_inventory
+- DB_USERNAME=root
+- DB_PASSWORD=
 
 4. **Migrate dan seed data awal**
 php artisan migrate --seed
@@ -38,15 +38,15 @@ npm run dev
 
 
 **🧰 Stack & Library yang Digunakan**
-Kategori	Teknologi 
-Framework	Laravel 11 
-Frontend	Livewire 3, Vite, TailwindCSS 
-Authentication	Laravel Fortify 
-Authorization	Spatie Laravel Permission 
-UI Components	Flux UI (Blade Components) 
-Database	MySQL / SQLite 
-Icons & Styling	Heroicons, Tailwind Dark Mode 
-Development Tools	PHP 8+, Node.js 20+, Composer 2+  
+- Kategori	Teknologi 
+- Framework	Laravel 11 
+- Frontend	Livewire 3, Vite, TailwindCSS 
+- Authentication	Laravel Fortify 
+- Authorization	Spatie Laravel Permission 
+- UI Components	Flux UI (Blade Components) 
+- Database	MySQL / SQLite 
+- Icons & Styling	Heroicons, Tailwind Dark Mode 
+- Development Tools	PHP 8+, Node.js 20+, Composer 2+  
 
 
 **👤 Akun Sample Login**
