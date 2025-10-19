@@ -31,9 +31,9 @@ Project ini dibangun menggunakan **Laravel + Livewire** dan sudah dilengkapi den
     ```bash
    php artisan migrate --seed
 Perintah ini akan otomatis membuat:
--Role Admin & Staff
--Permission untuk setiap modul (products, categories, users, roles)
--Akun login sample
+- Role Admin & Staff
+- Permission untuk setiap modul (products, categories, users, roles)
+- Akun login sample
 
 5. **Jalankan aplikasi**
     ```bash
