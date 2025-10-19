@@ -28,9 +28,9 @@ npm install
 4. **Migrate dan seed data awal**
 php artisan migrate --seed
 Perintah ini akan otomatis membuat:
--Role Admin & Staff
--Permission untuk setiap modul (products, categories, users, roles)
--Akun login sample
+- Role Admin & Staff
+- Permission untuk setiap modul (products, categories, users, roles)
+- Akun login sample
 
 5. **Jalankan aplikasi**
 php artisan serve
