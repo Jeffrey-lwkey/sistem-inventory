@@ -27,7 +27,7 @@ Project ini dibangun menggunakan **Laravel + Livewire** dan sudah dilengkapi den
     DB_USERNAME=root
     DB_PASSWORD=
 
-5. **Migrate dan seed data awal**
+4. **Migrate dan seed data awal**
     ```bash
    php artisan migrate --seed
 Perintah ini akan otomatis membuat:
@@ -35,7 +35,7 @@ Perintah ini akan otomatis membuat:
 -Permission untuk setiap modul (products, categories, users, roles)
 -Akun login sample
 
-6. **Jalankan aplikasi**
+5. **Jalankan aplikasi**
     ```bash
     php artisan serve
     npm run dev
