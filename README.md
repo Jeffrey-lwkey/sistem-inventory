@@ -38,23 +38,14 @@ npm run dev
 
 
 **🧰 Stack & Library yang Digunakan**
----
 Kategori	Teknologi
----
 Framework	Laravel 11
----
 Frontend	Livewire 3, Vite, TailwindCSS
----
 Authentication	Laravel Fortify
----
 Authorization	Spatie Laravel Permission
----
 UI Components	Flux UI (Blade Components) 
----
 Database	MySQL / SQLite
----
 Icons & Styling	Heroicons, Tailwind Dark Mode
----
 Development Tools	PHP 8+, Node.js 20+, Composer 2+
 
 
