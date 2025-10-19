@@ -13,54 +13,51 @@ Project ini dibangun menggunakan **Laravel + Livewire** dan sudah dilengkapi den
    cd sistem-inventory
 
 2.  **Install dependency PHP dan JS**
-composer install
-npm install
+    ```bash
+    composer install
+    npm install
 
 3. **Sesuaikan nama DB dengan kebutuhan**
 /.env:
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=sistem_inventory
-DB_USERNAME=root
-DB_PASSWORD=
+    ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=sistem_inventory
+    DB_USERNAME=root
+    DB_PASSWORD=
 
-4. **Migrate dan seed data awal**
-php artisan migrate --seed
+5. **Migrate dan seed data awal**
+    ```bash
+   php artisan migrate --seed
 Perintah ini akan otomatis membuat:
 -Role Admin & Staff
 -Permission untuk setiap modul (products, categories, users, roles)
 -Akun login sample
 
-5. **Jalankan aplikasi**
-php artisan serve
-npm run dev
+6. **Jalankan aplikasi**
+    ```bash
+    php artisan serve
+    npm run dev
 
 
 **🧰 Stack & Library yang Digunakan**
----
-Kategori	Teknologi
----
-Framework	Laravel 11
----
-Frontend	Livewire 3, Vite, TailwindCSS
----
-Authentication	Laravel Fortify
----
-Authorization	Spatie Laravel Permission
----
-UI Components	Flux UI (Blade Components) 
----
-Database	MySQL / SQLite
----
-Icons & Styling	Heroicons, Tailwind Dark Mode
----
-Development Tools	PHP 8+, Node.js 20+, Composer 2+
+| Kategori              | Teknologi                        |
+| --------------------- | -------------------------------- |
+| **Framework**         | Laravel 11                       |
+| **Frontend**          | Livewire 3, Vite, TailwindCSS    |
+| **Authentication**    | Laravel Fortify                  |
+| **Authorization**     | Spatie Laravel Permission        |
+| **UI Components**     | Flux UI (Blade Components)       |
+| **Database**          | MySQL / SQLite                   |
+| **Icons & Styling**   | Heroicons, Tailwind Dark Mode    |
+| **Development Tools** | PHP 8+, Node.js 20+, Composer 2+ |
+
 
 
 **👤 Akun Sample Login**
-Role	Email	            Password	Akses
----
-Admin	admin@hotmail.com	password	CRUD semua modul
----
-Staff	staff@hotmail.com	password	View-only
+| Role      | Email                                         | Password | Akses            |
+| --------- | --------------------------------------------- | -------- | ---------------- |
+| **Admin** | [admin@hotmail.com](mailto:admin@hotmail.com) | password | CRUD semua modul |
+| **Staff** | [staff@hotmail.com](mailto:staff@hotmail.com) | password | View-only        |
+
