@@ -38,15 +38,15 @@ npm run dev
 
 
 **🧰 Stack & Library yang Digunakan**
-Kategori	Teknologi \n
-Framework	Laravel 11 \n
-Frontend	Livewire 3, Vite, TailwindCSS \n
-Authentication	Laravel Fortify \n
-Authorization	Spatie Laravel Permission \n
-UI Components	Flux UI (Blade Components) \n
-Database	MySQL / SQLite \n
-Icons & Styling	Heroicons, Tailwind Dark Mode \n
-Development Tools	PHP 8+, Node.js 20+, Composer 2+ \n 
+Kategori	Teknologi 
+Framework	Laravel 11 
+Frontend	Livewire 3, Vite, TailwindCSS 
+Authentication	Laravel Fortify 
+Authorization	Spatie Laravel Permission 
+UI Components	Flux UI (Blade Components) 
+Database	MySQL / SQLite 
+Icons & Styling	Heroicons, Tailwind Dark Mode 
+Development Tools	PHP 8+, Node.js 20+, Composer 2+  
 
 
 **👤 Akun Sample Login**
